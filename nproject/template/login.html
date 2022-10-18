@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<!--<form action="login" method="post">-->
+<!--    {% csrf_token %}-->
+<!--    <input type="text" name="username" placeholder="Enter your UserName"><br>-->
+<!--    <input type="password" name="password" placeholder="Enter your password"><br>-->
+<!--    <input type="submit">-->
+
+
+<!--</form>-->
+<body style="background:#003A52;">
+<center>
+<form action="login"  method="post" >
+    {% csrf_token %}
+
+    <label style="background:#0AA7E7; border-radius:5px;
+  border:5px solid #0AA7E7 ;
+  padding:2px;" >USERNAME</label>
+    <input style="background:#03B199; border-radius:5px;
+  border:5px solid #03B199  ;
+  padding:3px;" type="text" name="username" placeholder="enter your name"><br>
+    <br><label style="background:#0AA7E7; border-radius:5px;
+  border:5px solid #0AA7E7 ;
+  padding:2px;" >PASSWORD</label>
+    <input style="background:#03B199; border-radius:5px;
+  border:5px solid #03B199  ;
+  padding:3px;" type="password" name="password" placeholder="enter your password"><br>
+    <br><input style="background:#03B199; border-radius:5px;
+  border:5px solid #03B199  ;
+  padding:3px;"  type="submit">
+
+ </form>
+</center>
+
+</body>
+</html>
